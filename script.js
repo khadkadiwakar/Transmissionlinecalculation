@@ -12,6 +12,6 @@ function calculateCurrent() {
     const I = (PowerT * 10**3) / (Math.sqrt(3) * VoltageT * powerfactor);
   
     // Display the current
-    document.getElementById('current').textContent = I.toFixed(2);
+    document.getElementById('current').value = I.toFixed(2);
   }
   
